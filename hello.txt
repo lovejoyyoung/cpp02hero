@@ -1,0 +1,15 @@
+/cpp02hero on main  otool -tv hello                                                        with jinyangliu@MBP18 at 19:16:24
+hello:
+(__TEXT,__text) section
+_main:
+0000000100003f70        pushq   %rbp
+0000000100003f71        movq    %rsp, %rbp
+0000000100003f74        subq    $0x10, %rsp
+0000000100003f78        movl    $0x0, -0x4(%rbp)
+0000000100003f7f        leaq    0x16(%rip), %rdi
+0000000100003f86        movb    $0x0, %al
+0000000100003f88        callq   0x100003f96
+0000000100003f8d        xorl    %eax, %eax
+0000000100003f8f        addq    $0x10, %rsp
+0000000100003f93        popq    %rbp
+0000000100003f94        retq
